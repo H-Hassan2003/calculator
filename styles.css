@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 300px;
+    background-color: #ADDDD0;
+    border: #6F38C5 ridge 2px;
+    border-radius: 10px;
+    margin: 20px auto 0;
+} 
+
+.input-field {
+    width: 270px;
+    height: 110px;
+    margin: 15px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-color: aquamarine;
+    border: #EEEEEE solid 1px;
+    border-radius: 5px;
+}
+
+input {
+    width: 92%;
+    border: solid 0.5px whitesmoke;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #6F38C5;
+    color: #EEEEEE;
+    display: block;
+    
+}
+
+::placeholder {
+    color: #EEEEEE;
+    opacity: .5;
+}
+
+.numbers-operators {
+    width: 270px;
+    margin: 0 auto 20px;
+    display: grid;
+    gap: 0.5em;
+    grid-template-columns: repeat(4, 1fr);
+
+}
+
+button {
+    font-size: 1.2rem;
+    background-color: #6F38C5;
+    color: #EEEEEE;
+    border-radius: 5px;
+    border: 10px #6F38C5 ridge;
+}
